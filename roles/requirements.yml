@@ -1,0 +1,6 @@
+---
+roles:
+- geerlingguy.postgresql
+
+collections:
+- pulp.pulp_installer
