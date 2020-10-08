@@ -1,6 +1,6 @@
 ---
 - hosts: pulp_server
   roles:
-    - role: pulp.pulp_installer.pulp_all_services
+    - pulp.pulp_installer.pulp_all_services
   environment:
     DJANGO_SETTINGS_MODULE: pulpcore.app.settings
