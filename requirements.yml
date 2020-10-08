@@ -1,9 +1,0 @@
----
-roles:
-- name: geerlingguy.postgresql
-  version: 2.2.1
-
-collections:
-- name: pulp.pulp_installer
-  source: https://galaxy.ansible.com
-  version: 3.7.1
